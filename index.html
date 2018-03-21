@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script src="assets/script.js"></script>
+	<title>Document form json</title>
+</head>
+<body>
+
+	<div class="container" style="padding-top:50px;">
+
+		<form id="tal" onsubmit="enviaJquery(event)">
+
+			<label for="firstName">First name:
+				<input type="text" name="firstName" value="">
+			</label>
+
+		  	<br>
+
+		  	<label for="lastName">Last name:
+				<input type="text" name="lastName" value="">
+			</label>
+
+			<br>
+
+			<label for="lastName">Email name:
+				<input type="email" name="email" value="">
+			</label>
+
+			<br>
+
+			<input type="submit" value="Submit">
+
+		</form> 
+
+	</div>
+
+	<div class="retorno-json"></div>
+</body>
+</html>
